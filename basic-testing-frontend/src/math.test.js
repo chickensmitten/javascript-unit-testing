@@ -62,3 +62,16 @@ it("should throw an error if no value is passed into the function", () => {
   // // use .not to check for the opposite
   // expect(resultFn).not.toThrow();
 });
+
+it("should throw an error if provided with multiple arugments instead of an array", () => {
+  const num1 = 1;
+  const num2 = 2;
+
+  // this function would not be possible in typescript
+  // because it knows that it can only take one parameter
+  const resultFn = () => {
+    add(num1, num2);
+  };
+
+  expect(resultFn).toThrow();
+})
