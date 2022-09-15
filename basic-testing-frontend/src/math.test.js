@@ -57,7 +57,7 @@ it("should throw an error if no value is passed into the function", () => {
     add();
   };
 
-  expect(resultFn).toThrow();
+  expect(resultFn).toThrow(/is not iterable/);
 
   // // use .not to check for the opposite
   // expect(resultFn).not.toThrow();
