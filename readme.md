@@ -3,7 +3,7 @@
 ## Summary of Testing Setup
 - [`/public/testing setup.png`](https://raw.githubusercontent.com/chickensmitten/javascript-unit-testing/main/public/testing%20setup.png?token=GHSAT0AAAAAABWFSHJCE5AZFO4EBHKG5SHYYZBPBPA)
 - `npm install -D vitest`
-= this is needed in package.json `"test": "vitest --run --reporter verbose"` to see a verbose report when running `npm test`
+- this is needed in package.json `"test": "vitest --run --reporter verbose"` to see a verbose report when running `npm test`
 
 ## Unit Testing Basics
 - AAA: Arranging, Act, Assert
